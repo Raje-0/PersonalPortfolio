@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Fira+Sans&family=Lobster&family=Pacifico&family=Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Ubuntu&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Ubuntu&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lobster&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Fira+Sans&family=Pacifico&family=Source+Code+Pro:wght@200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  background-color: rgb(140, 133, 133);
+  width: 434px;
+  font-family: "Fira Sans", sans-serif;
+  height: 100vh;
+}
+
+.sidebar nav {
+  padding: 45px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 25px;
+  padding: 33px 0;
+}
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  /* background-color: yellow; */
+  width: 86vw;
+}
+
+.container {
+  display: flex;
+}
+
+.infocontainer {
+  /* background-color: rgb(231, 45, 147); */
+  height: 55vh;
+  width: 70vw;
+  margin: 144px auto;
+  display: flex;
+  /* change */
+  justify-content: space-between;
+}
+
+.devinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.hello {
+    font-size: 70px;
+    
+
+}
+.name {
+    font-size: 55px;
+    font-weight: bold;
+    font-family: "Fira Sans", sans-serif;
+}
+.about {
+    font-size: 35px;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.moreabout{
+  font-size: 25px;
+  margin-top: 28px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.buttons{
+  margin-top: 34px;
+}
+
+.btn{
+  padding: 9px 14px;
+  border-radius: 22px;
+  color: white;
+  background-color: dodgerblue;
+  font-weight: bold;
+  font-size: 21px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+
+.btn-sm{
+  font-size: 14px;
+  padding: 10px 19px;
+  margin: 12px 0;
+}
+.btn:hover{
+  background-color: white;
+  color: dodgerblue;
+}
+
+.pic img {
+  width: 400px;
+  height: 44.5vh;
+}
+
+
+/* main blog css */
+
+
+.blogItem {
+margin: 20px;
+}
+
+.h1{
+    font-family: "Fira Sans", sans-serif;
+    margin: 23px;
+}
+
+.p{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+     
+    
+}
